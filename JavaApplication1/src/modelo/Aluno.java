@@ -14,7 +14,7 @@ public class Aluno {
    private Integer codigo;
    private String nome;
    private String sobrenome;
-   private String sexo;
+   private String sexo;  
 
     public Integer getCodigo() {
         return codigo;
@@ -52,5 +52,5 @@ public class Aluno {
     public String toString() {
         return "Aluno{" + "codigo=" + codigo + ", nome=" + nome + ", sobrenome=" + sobrenome + ", sexo=" + sexo + '}';
     }
-   
+
 }
